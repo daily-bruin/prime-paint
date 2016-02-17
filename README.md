@@ -1,2 +1,2 @@
-# hawaii
-Sports page for two UCLA men's volleyball players from Hawai'i
+# paint
+Winter 2016 Prime Page for Stripping Away the Paint
