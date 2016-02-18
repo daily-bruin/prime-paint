@@ -3,6 +3,10 @@
 	overflow: hidden;
 }
 
+.gallery img{
+	margin-top: -90px;
+}
+
 .top {
     right: 0px;
     top: 0px;
