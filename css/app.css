@@ -1,8 +1,5 @@
-.parallax-window {
-    min-height: 900px;
-    height: auto;
-    background: transparent;
-    width: 100%;
+.gallery {
+	height: 900px;
 }
 
 .top {
