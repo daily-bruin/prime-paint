@@ -49,7 +49,7 @@ h3 {
 div.headertitle{
 
 	position: absolute;
-	
+
 
   top: 60%;
   left: 50%;
@@ -63,7 +63,7 @@ div.headertitle{
   padding-right:30px;
   padding-left:30px;
 
-} 
+}
 
 div.headertitle h2{
 margin-bottom: -4%;
@@ -89,6 +89,14 @@ font-size:1.3vmax;
 	height: auto;
 }
 
+.title h1{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 65px;
+	font-style: italic;
+}
+
+
 .pullquote {
 	float: left;
 	width: 250px;
@@ -110,31 +118,31 @@ font-size:1.3vmax;
 
 #text_near_images {
 	padding-top: 20px;
-	padding-bottom: 20px; 
+	padding-bottom: 20px;
 }
 .img-responsive {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 43%;  
-	padding-bottom: 5px; 
+	width: 43%;
+	padding-bottom: 5px;
 	padding-top: 5px;
 }
 .photo {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 75%; 
-	height: auto; 
-	padding-bottom: 10px; 
+	width: 75%;
+	height: auto;
+	padding-bottom: 10px;
 	padding-top: 10px;
 }
 .block_photo_left{
 	display: block;
 	margin-left: -250px;
 	margin-right: auto;
-	width: 75%; 
-	padding-bottom: 10px; 
+	width: 75%;
+	padding-bottom: 10px;
 	padding-top: 10px;
 	float: left;
 }
@@ -143,8 +151,8 @@ font-size:1.3vmax;
 	display: block;
 	margin-left: auto;
 	margin-right: -250px;
-	width: 75%; 
-	padding-bottom: 10px; 
+	width: 75%;
+	padding-bottom: 10px;
 	padding-top: 10px;
 	float: right;
 }
@@ -153,14 +161,14 @@ font-size:1.3vmax;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 10px; 
+	padding-bottom: 10px;
 	padding-top: 5px;
 }
 
 .caption_left p {
 	margin-left: 45px;
 	margin-right: auto;
-	padding-bottom: 10px; 
+	padding-bottom: 10px;
 	padding-top: 5px;
 	float: center;
 }
@@ -168,7 +176,7 @@ font-size:1.3vmax;
 .caption_right p {
 	margin-left: auto;
 	margin-right: 90px;
-	padding-bottom: 10px; 
+	padding-bottom: 10px;
 	padding-top: 5px;
 	float: right;
 }
@@ -176,7 +184,7 @@ font-size:1.3vmax;
 .caption_full p {
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 10px; 
+	padding-bottom: 10px;
 	padding-top: 10px;
 	float: center;
 }
@@ -223,7 +231,7 @@ font-size:1.3vmax;
 		margin: 30px 0px 50px 0px;
 		border-top: 1px solid black;
 		border-bottom: 1px solid black;
-	}	
+	}
 	.block_photo_right {
 		width: 100%;
 		display: inline-block;
@@ -275,7 +283,7 @@ font-size:1.3vmax;
 		margin: 30px 0px 50px 0px;
 		border-top: 1px solid black;
 		border-bottom: 1px solid black;
-	}	
+	}
 	.block_photo_right {
 		width: 100%;
 		display: inline-block;
