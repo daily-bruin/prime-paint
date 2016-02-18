@@ -1,5 +1,6 @@
 .gallery {
 	height: 900px;
+	overflow: hidden;
 }
 
 .top {

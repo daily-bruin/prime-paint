@@ -13,6 +13,7 @@
     <link href='https://fonts.googleapis.com/css…' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/flickity.css" media="screen">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 </head>
 
 
@@ -20,17 +21,12 @@
 
 <header>
     <div id="plate" class= "top"><a href="http://dailybruin.com"><img src="http://graphics.dailybruin.com/gradissue-2015/30-columns/image/nameplate.png"/></a></div>
-
     <div class="gallery js-flickity"
-        data-flickity-options='{ "imagesLoaded": true, "percentPosition": false }'>
-        <img src="img/feature.jpg" alt="orange tree" />
-        <img src="img/image1.jpg" alt="submerged" />
-        <img src="img/image2.jpg" alt="look-out" />
-       <!--  <div class="gallery-cell"><img src="img/feature.jpg"></div>
-        <div class="gallery-cell"><img src="img/image1.jpg"></div>
-        <div class="gallery-cell"><img src="img/image2.jpg"></div>
-        <div class="gallery-cell"><img src="img/image3.jpg"></div>
-        <div class="gallery-cell"></div> -->
+        data-flickity-options='{ "imagesLoaded": true, "percentPosition": false }' id="img-container">
+            <img src="img/feature.jpg" alt="feature" />
+            <img src="img/image1.jpg" alt="image1" />
+            <img src="img/image2.jpg" alt="image2" />
+            <img src="img/image3.jpg" alt="image3" />
      </div>
 </header>
 
