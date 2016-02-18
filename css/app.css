@@ -1,5 +1,5 @@
 .gallery {
-	height: 810px;
+	height: 100vh;
 	overflow: hidden;
 }
 
@@ -101,7 +101,7 @@ font-size:1.3vmax;
 
 .pullquote p {
 	color: black;
-	line-height: 90%;
+	line-height: 120%;
 	font-weight: bold;
 	font-size: 26px;
 	font-style: italic;
