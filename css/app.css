@@ -3,6 +3,11 @@
 	overflow: hidden;
 }
 
+h2 {
+	font-style: italic;
+	font-weight: bold;
+}
+
 .top {
     right: 0px;
     top: 0px;

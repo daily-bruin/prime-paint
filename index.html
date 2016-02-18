@@ -13,13 +13,20 @@
     <link href='https://fonts.googleapis.com/css…' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/flickity.css" media="screen">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 </head>
 
 
 <body>
 
 <header>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $('.gallery js-flickity').flickity({
+            setGallerySize: false,
+            wrapAround: true,
+            pageDots: false
+        });
+    </script>
     <div id="plate" class= "top"><a href="http://dailybruin.com"><img src="http://graphics.dailybruin.com/gradissue-2015/30-columns/image/nameplate.png"/></a></div>
     <div class="gallery js-flickity"
         data-flickity-options='{ "imagesLoaded": true, "percentPosition": false }' id="img-container">
