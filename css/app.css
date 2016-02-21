@@ -212,6 +212,11 @@ div.headertitle p{
 }
 
 @media only screen and (max-width: 40em) {
+	.parallax-window {
+	    height: auto;
+	    width: 100%;
+	    background: transparent;
+	}
 	.gallery {
 		height: 500px;
 		overflow: hidden;
@@ -264,6 +269,11 @@ div.headertitle p{
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em){
+	.parallax-window {
+	    height: auto;
+	    width: 100%;
+	    background: transparent;
+	}	
 	.pullquote {
 		width: 100%;
 		display: block;
