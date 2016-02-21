@@ -11,7 +11,6 @@
 }
 
 .gallery img{
-	margin-top: -90px;
 	height: auto;
 }
 
@@ -51,12 +50,17 @@ h3 {
 	font-size: 1.4vmax;
 }
 
+.headertitle {
+	width: 100%;
+	text-align: center;
+}
+
 .headertitle hr {
-	border-color:black;
+	border-color: black;
 }
 
 .headertitle p {
-	font-family:Helvetica, Sans-Serif;
+	font-family: Sans-Serif;
 }
 
 div.headertitle{
@@ -64,17 +68,16 @@ div.headertitle{
 	position: absolute;
 
 
-  top: 60%;
-  left: 50%;
+  	top: 75%;
+  	left: 50%;
   transform: translate(-50%, -50%);
 
     /* background-color: rgba(255,255,255,0.6);*/
-
   background-color: rgba(192,192,192,0.8);
   border-radius: 10px;
   padding:25px;
-  padding-right:30px;
-  padding-left:30px;
+  padding-right: 30px;
+  padding-left: 30px;
 
 }
 
@@ -92,10 +95,9 @@ margin-bottom: -4%;
 div.headertitle p{
 	margin-top: -2%;
 	margin-bottom: 3%;
-  color: rgb(0,0,51);
-font-family: 'Sans-Serif';
-font-size:1.3vmax;
-
+	color: rgb(0,0,51);
+	font-family: 'Sans-Serif';
+	font-size:1.3vmax;
 }
 .row {
 	padding: 30px 0px 0px 0px;
