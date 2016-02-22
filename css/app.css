@@ -38,11 +38,13 @@
 .title {
 	margin: auto;
 	padding-top: 5px;
+	font-style: italic;	
 	font-family: 'Old Standard TT', serif;	
 }
 
 h1 {
 	font-weight: bold;
+	font-style: italic;		
 	font-family: 'Old Standard TT', serif;	
 }
 
@@ -60,6 +62,7 @@ h3 {
 .headertitle {
 	width: 100%;
 	text-align: center;
+	font-style: italic;	
 	font-family: 'Old Standard TT', serif;
 }
 
